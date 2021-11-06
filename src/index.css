@@ -3,9 +3,21 @@
 }
 
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'sans-serif-light';
 }
 
-body {
-  padding: 60px;
+.center_body{
+  width: 100%;
+  height: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align:center;
+}
+
+.zoomImage:hover{
+  width: 200px;
+  height: 200px;
+  border: 2px solid lightBlue;
 }
