@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifGrid> debe de mostrar el componente correctamente 1`] = `
+<div>
+  <h1 />
+  <ForwardRef(ImageList)
+    cols={3}
+    rowHeight={164}
+    sx={
+      Object {
+        "maxWidth": 500,
+      }
+    }
+  />
+  <ForwardRef(Modal)
+    aria-describedby="parent-modal-description"
+    aria-labelledby="parent-modal-title"
+    onClose={[Function]}
+    open={false}
+  >
+    <ForwardRef(Box)
+      sx={
+        Object {
+          "backgroundColor": "white",
+          "bgcolor": "background.paper",
+          "border": "2px solid #000",
+          "boxShadow": 24,
+          "left": "50%",
+          "pb": 3,
+          "position": "absolute",
+          "pt": 2,
+          "px": 4,
+          "top": "50%",
+          "transform": "translate(-50%, -50%)",
+          "width": 400,
+        }
+      }
+    >
+      <h2
+        id="parent-modal-title"
+      />
+      <img
+        alt="gif"
+        height="200"
+        src={null}
+        width="400"
+      />
+    </ForwardRef(Box)>
+  </ForwardRef(Modal)>
+</div>
+`;
